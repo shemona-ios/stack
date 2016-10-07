@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		7E37CA371DA80B1C00855AAF /* SecondViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7E37CA351DA80B1C00855AAF /* SecondViewController.swift */; };
+		7E37CA381DA80B1C00855AAF /* TableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7E37CA361DA80B1C00855AAF /* TableViewCell.swift */; };
 		EC0271FA1DA6B459004B477B /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC0271F91DA6B459004B477B /* AppDelegate.swift */; };
 		EC0271FC1DA6B459004B477B /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC0271FB1DA6B459004B477B /* ViewController.swift */; };
 		EC0271FF1DA6B459004B477B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EC0271FD1DA6B459004B477B /* Main.storyboard */; };
@@ -16,6 +18,8 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		7E37CA351DA80B1C00855AAF /* SecondViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SecondViewController.swift; sourceTree = "<group>"; };
+		7E37CA361DA80B1C00855AAF /* TableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TableViewCell.swift; sourceTree = "<group>"; };
 		EC0271F61DA6B459004B477B /* stack.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = stack.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		EC0271F91DA6B459004B477B /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		EC0271FB1DA6B459004B477B /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -58,6 +62,8 @@
 			children = (
 				EC0271F91DA6B459004B477B /* AppDelegate.swift */,
 				EC0271FB1DA6B459004B477B /* ViewController.swift */,
+				7E37CA351DA80B1C00855AAF /* SecondViewController.swift */,
+				7E37CA361DA80B1C00855AAF /* TableViewCell.swift */,
 				EC0271FD1DA6B459004B477B /* Main.storyboard */,
 				EC0272031DA6B459004B477B /* Assets.xcassets */,
 				EC0272051DA6B459004B477B /* LaunchScreen.storyboard */,
@@ -140,6 +146,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				7E37CA381DA80B1C00855AAF /* TableViewCell.swift in Sources */,
+				7E37CA371DA80B1C00855AAF /* SecondViewController.swift in Sources */,
 				EC0271FC1DA6B459004B477B /* ViewController.swift in Sources */,
 				EC0271FA1DA6B459004B477B /* AppDelegate.swift in Sources */,
 				EC0272021DA6B459004B477B /* stack.xcdatamodeld in Sources */,
@@ -306,6 +314,7 @@
 				EC02720D1DA6B459004B477B /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 
